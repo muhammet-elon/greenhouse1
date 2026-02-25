@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Greenhouse AR • TomatoWorld × Do IoT Fieldlab</title>
+  <meta name="theme-color" content="#0b1a12" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #07140e;
+      color: white;
+      text-align: center;
+    }
+
+    .hero {
+      padding: 80px 20px;
+      background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.85)),
+                  url("assets/greenhouse.jpg") center/cover no-repeat;
+    }
+
+    h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      opacity: .85;
+      max-width: 520px;
+      margin: 0 auto 30px;
+    }
+
+    .logos {
+      margin-bottom: 35px;
+    }
+
+    .logos img {
+      height: 42px;
+      margin: 0 12px;
+      background: white;
+      padding: 6px 12px;
+      border-radius: 14px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 18px 28px;
+      border-radius: 20px;
+      font-weight: 600;
+      text-decoration: none;
+      background: linear-gradient(135deg, #34d399, #22c55e);
+      color: #04210e;
+      font-size: 18px;
+      box-shadow: 0 12px 35px rgba(52,211,153,.3);
+    }
+
+    .footer {
+      padding: 50px 20px;
+      opacity: .6;
+      font-size: 14px;
+      background: #020705;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="logos">
+      <img src="assets/logo-tomatoworld.jpg" alt="TomatoWorld">
+      ×
+      <img src="assets/logo-doiot.png" alt="Do IoT Fieldlab">
+    </div>
+
+    <h1>Step Into the Greenhouse</h1>
+    <p>
+      Explore the TomatoWorld greenhouse in Augmented Reality.
+      Developed in collaboration with Do IoT Fieldlab.
+    </p>
+
+    <!-- iOS Quick Look -->
+    <a rel="ar" href="assets/greenhouse.usdz" class="btn">
+      View in AR
+    </a>
+  </section>
+
+  <div class="footer">
+    © 2026 TomatoWorld × Do IoT Fieldlab
+  </div>
+
+</body>
+</html>
